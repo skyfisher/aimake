@@ -22,12 +22,3 @@ it's green, you don't need to install it
     the sub-folder(iOS, android) means supported target platform,  and the name of sub-folder is some as target platform's name.
     every sub-folder must contains the following files:
         init.mk                 -- initialize variables of compilation environment, e.g. CC, CXX, CFLAGS, CXXFLAGS
-        build_executable.mk     -- specify that compile the project into executable
-        build_static_library.mk -- specify that compile the project into static library
-        build_shared_library.mk -- specify that compile the project into shared library
-        build_all.mk            -- contains explicit rules and goals for gnu make
-
-just enjoy it
-
-aaashun@gmail.com
-2011-09-29
